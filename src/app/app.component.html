@@ -1,25 +1,34 @@
-<section class="vh-100" style="background-color: #508bfc;">
+<section class="vh-100">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-        <div class="card shadow-2-strong" style="border-radius: 1rem;">
-          <div class="card-body p-5 text-center">
+        <div class="card shadow-2-strong" style="border: none;">
+          <div class="card-body p-5">
 
-            <h3 class="mb-5">Login</h3>
+            
+            <div class="text-center">
+              <img src="../assets/logo.png" class="img-fluid mb-3" alt="logomarca">
+            </div>
 
             <div class="form-outline mb-4">
+              <label for="typeEmailX-2">E-mail</label>
               <input type="email" id="typeEmailX-2" class="form-control form-control-lg" placeholder="Digite seu e-mail aqui"/>
               
             </div>
 
             <div class="form-outline mb-4">
+              <label for="typePasswordX-2">Senha</label>
               <input type="password" id="typePasswordX-2" class="form-control form-control-lg" placeholder="Digite sua senha aqui"/>
               
             </div>
 
             <!-- Checkbox -->
-            <div class="d-flex justify-content-center mb-4">             
-              <a href="#">Relembrar senha</a>
+            <div class="d-flex justify-content-center mb-4">  
+              <a href="#" style="text-decoration: underline;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+              </svg>       
+              Relembrar senha</a>
             </div>
 
             <button class="btn btn-primary btn-lg btn-block" type="submit">Entrar</button>
